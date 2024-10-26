@@ -25,7 +25,7 @@ type glogLogger struct {
 //
 // Example:
 //
-//	 import "github.com/zalando/gin-oauth2"
+//	import "github.com/zalando/gin-oauth2"
 //
 //	ginoauth2.DefaultLogger = &logrusLogger{} // use logrus
 var DefaultLogger Logger = &glogLogger{output: os.Stderr}
